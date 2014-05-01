@@ -1,0 +1,115 @@
+﻿body{
+font-family:微软雅黑;
+background:#F0F3F1;
+}
+
+#head,#footer{
+	border-radius: 10px;
+	margin:5px auto;
+	padding:auto 10px;
+}
+/* ****************************************** */
+#logo:hover{
+	background:rgba(181, 249, 107, 0.8);
+}
+
+#logo{
+	width:80%;
+	display:inline;
+	cursor: pointer;
+}
+
+#home{
+	position:absolute;top:5px;left:6px;
+	display:inline-block;vertical-align:top;
+	width:40px;height:36px;
+	background:url(../images/home_p.png) 0 0 no-repeat;
+	cursor: pointer;
+}
+#home:hover{background-position:-38px 0;}
+
+.sel_style{	
+	display:inline-block;
+	border: solid 5px #D7E5EE;
+	border-radius: 3px;
+	cursor: pointer;
+	margin:2px;
+	padding:5px;
+}
+
+.sel_style:hover{
+	background:rgba(149, 123, 207, 0.8);
+}
+
+#sel_num{
+	display:inline-block;
+	border: solid 5px #D7E5EE;
+	border-radius: 3px;
+	cursor: pointer;
+	margin:2px;
+	padding:5px;
+}
+#head{
+	background:rgba(249, 223, 107, 0.8);
+	text-align:center;
+}
+
+#seldb{
+	display:inline-block;
+}
+
+#database{
+	display:inline-block;
+	float:right;
+	background: #F3F8FC;
+	border: solid 5px #D7E5EE;
+	padding: 2px;
+	margin:2px;
+	font-size: 1.2em;
+}
+
+/* ****************************************** */
+#main,#main2{
+	background:rgba(198, 249, 107, 0.8);
+	padding:2px;
+	border-radius: 10px;
+	margin:2px;
+}
+
+#UA,#UB,#UC,#UD,#UANS{
+	font-size:1.2em;
+}
+#topic{
+	background:rgba(218, 249, 157, 0.8);
+	cursor: pointer;	
+}
+#question,#select,#update{
+	font-size:1.2em;
+	margin:0px 2px;
+}
+#submit,#show,#last,#next{
+	font-size:1.5em;
+	padding:5px;
+	margin:5px;
+}
+
+.radio{
+	padding:3px;
+	margin:3px;
+	background:rgba(243, 194, 185, 0.8);
+}
+.update{
+	display:inline-block;
+}
+#result{
+	font:bold 方正舒体;
+	color: rgb(238, 30, 12);
+	margin:0px 2px;
+}
+#footer{
+	padding:20px;
+	background-color:#F89CE9;
+	text-align:center;
+	font-size: 1.2em;
+	cursor: pointer;
+}
